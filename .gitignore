@@ -1,0 +1,18 @@
+# Arquivos privados
+.env
+.env.*
+!.env.example
+
+# Arquivos temporarios
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+~$*
+
+# Dados locais do PostgreSQL
+pgdata/
+postgres-data/
+
+# Arquivos temporarios do editor
+.vscode/
